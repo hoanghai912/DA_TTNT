@@ -1,0 +1,40 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 14vw;
+    flex:1;
+}
+
+.moon{
+    transition: all 0.5s ease-in-out;
+    color: rgb(68, 10, 130);
+    width: 1.9rem;
+    padding-bottom: 0.2rem;
+}
+.sun{
+    transition: all 0.5s ease-in-out;
+    color: rgb(232, 221, 17);
+    width: 2rem;
+}
+.theme{
+    margin: 0 1.5rem;
+}
+.search{
+    margin-right: 2rem;
+    font-size: 2rem;
+}
+.menu{
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+.menu-tranform{
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+    transform: rotate(90deg);
+}

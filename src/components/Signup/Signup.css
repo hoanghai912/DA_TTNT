@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&display=swap');
+
+.signin-container{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 5;
+    margin-bottom: 0.7rem;
+}
+
+.rectangle{
+    background-color: #67C9CE;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10rem;
+    position: relative;
+}
+
+.houses-logo-wit{
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -1px;
+}
+
+p.title-signin {
+    font-family: Comfortaa;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 30%;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #5E5E5E;
+}
+
+.loginForm {
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 0.3rem;
+    align-content: space-between;
+    justify-content: center;
+    width: 100%;
+}
+
+.line-break {
+    width: 100%;
+}
+
+input[type=text], select {
+    width: 60%;
+    /* padding: 0px 10px;
+    margin: 5px 0; */
+    display: inline-block;
+    /* border: 1px solid #67C9CE;
+    border-radius: 25px; */
+    border: none;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Dongle;
+    font-size: 35px;
+    vertical-align: middle;
+}
+
+
+input[type=password], select {
+    width: 60%;
+    /* padding: 0px 10px;
+    margin: 5px 0; */
+    display: inline-block;
+    /* border: 1px solid #67C9CE;
+    border-radius: 25px; */
+    border: none;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Dongle;
+    font-size: 35px;
+    vertical-align: middle;
+}
+
+.loginForm .input-icon{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-radius: 35px;
+    border: 1px solid #67C9CE;
+    /* padding: 4px 15px 4px; */
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.icon {
+    
+    /* color: green; */
+    /* min-width: 50px; */
+    text-align: center;
+    margin-top: 10px;
+    vertical-align: middle;
+    font-size: 2rem;
+    line-height: 1rem;
+    margin-left: 20px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.submit-signinup {
+    margin-top: 1rem;
+    width: 15%;
+    height: auto;
+}
+
+.signin-text{
+    display: flex;
+    gap: 5px;
+    font-family: Comfortaa;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.signintext {
+    text-decoration: underline;
+}

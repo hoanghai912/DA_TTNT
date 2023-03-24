@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;500&display=swap');
+
+/* .header-container{
+    display: none;
+}
+
+.footer-container{
+    display: none;
+} */
+
+.welcome-container{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 5;
+    margin-bottom: 0.7rem;
+}
+
+.welcome-logo{
+    margin-top: 7rem;
+
+    width: 60%;
+    height: auto;
+}
+
+.logo-tex{
+    display: flex;
+    /* margin-top: 5px; */
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    font-size: 40px;
+    width: 35px;
+}
+
+.smart-tex {
+    color: #90CFA7;
+    font-family: 'Comfortaa';
+    font-size: 30px;
+    /* font-weight: bold; */
+}
+.home-tex {
+    color: #67C9CE;
+    font-weight: bold;
+    font-size: 57px;
+    margin-top: 3px;
+    font-family: 'Dongle';
+}
+.login-form{
+    align-self: center;
+}
+
+.houses-logo{
+    width: 85%;
+    margin-top: 8rem;
+}
+
+.rectangle-house{
+    background-color: #67C9CE;
+    height: 100%;
+    width: 100%;
+    margin-top: -1px;
+    position: relative;
+}
+
+.sign-inup-button {
+    height: 3.5rem;
+    width: 8rem;
+    background-color: #fff;
+    /* position: absolute; */
+    margin: auto;
+    border-radius: 25px;
+    font-family: Dongle;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 3.5rem;
+    margin-top: 1.5rem;
+}
+
+.sign-inup-button:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    cursor: pointer;
+}
+
+.sign-inup-button.sign-in {
+    margin-top: 5rem;
+}

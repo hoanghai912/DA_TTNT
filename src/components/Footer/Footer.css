@@ -1,0 +1,50 @@
+.footer-container{
+    width: 100vw;
+    height: 20vh;
+    position: relative;
+    flex:1;
+}
+.report-notify{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    border: 2px solid #a59797;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+}
+.nav{
+    font-size: 1.5rem;
+    color:#a59797;
+    text-decoration: none;
+}
+
+.home-icon{
+    z-index: 100;
+    position: absolute;
+    background-color: #fef9f9;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #5E5E5E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 15vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-wrapper p{
+    font-size: 1.2rem;
+}
+.reset-link,.reset-link:link, .reset-link:visited, .reset-link:active{
+    text-decoration: none;
+    background-color: transparent;
+}

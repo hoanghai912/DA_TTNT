@@ -1,0 +1,67 @@
+.air-cond-container{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 5;
+    margin-bottom: 0.7rem;
+    justify-content: space-between;
+}
+
+.mode-selection{
+    display:flex;
+    justify-content: space-around;
+    width: 80vw;
+    flex:0.5;
+    align-items: center;
+    background-color: #e0f0f0;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.mode{
+    margin-top: 0.5rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #0ebae1;
+}
+
+.temperature-selection{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-size:1.5rem;
+    flex: 2;
+    font-weight: bold;
+}
+
+.air-option-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    flex:1;
+}
+.direction-option-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #E9F6FA;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+.direction-option{
+    display: flex;
+    background-color: #E8EBEC;
+}
+.direction-option p {
+    width: 2rem;
+    height: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+    text-align: center;
+}
